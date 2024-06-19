@@ -10,12 +10,13 @@ export default function Banner() {
                     Olá Mundo!
                 </h1>
                 <p className={styles.paragrafo}>
-                Boas vindas ao meu espaço pessoal! Eu sou Antônio Evaldo, instrutor de Front-end da Alura. Aqui compartilho vários conhecimentos, espero que aprenda algo novo :)
+                Boas vindas ao meu espaço pessoal! Eu sou Panagiotis Alexandro Tsilfidis, geógrafo servidor público. Atualmente estudando desenvolvimento web Front-End.
                 </p>
             </div>
             <div className={styles.imagens}>
                 <img 
                     className={styles.circuloColorido}
+                    alt='Circulo colorido de fundo da foto de perfil'
                     src={circuloColorido}
                     aria-hidden={true}
                 />
